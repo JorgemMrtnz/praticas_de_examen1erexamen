@@ -1,4 +1,5 @@
 import random as rd
+import webbrowser
 valido = False
 while not valido:
     cara = input("cara o cruz :")
@@ -10,10 +11,10 @@ if Azar == 0 and cara == "cara":
 elif Azar == 1 and cara == "cruz":
     True
 elif Azar == 0 and cara == "cruz":
-    print ("perdiste")
+    webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1")
     exit()
 elif Azar == 1 and cara == "cara":
-    print ("perdiste")
+    webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1")
     exit()  
     
 Lista = ["Adrian", "Sergio", "David" ,"Hector", "Santiago", "Jorge", "Diego", "Marco", "Rojo", "Ginebra", "Izaro", "Nerea","Andrea"]
